@@ -1,0 +1,391 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Zeke Yoga studio - Zeke Yoga studio | Professional Yoga studio Services</title>
+            <meta name="description" content="Professional Yoga studio Services for Zeke Yoga studio. Find your inner peace.">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet" href="css/custom.css"> <!-- Add this line -->
+            <link rel="stylesheet" href="css/index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+        </head>
+                
+        
+    <body>
+        
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <a href="index.html" class="logo">Zeke Yoga studio</a>
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-heading">Transform Your House</h1>
+        <p class="hero-subheading">Join Our Services Today</p>
+        <a href="contact.html" class="hero-cta">Book Your First Service</a>
+    </div>
+</section>
+
+<style>
+    .hero-section {
+        position: relative;
+        height: 100vh;
+        min-height: 600px;
+        background-image: url('assets/images/Yoga-studio1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 0 20px;
+    }
+    
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+    }
+    
+    .hero-heading {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        animation: fadeInDown 1s ease-out;
+    }
+    
+    .hero-subheading {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        animation: fadeInUp 1s ease-out 0.3s both;
+    }
+    
+    .hero-cta {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #c2185b;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        animation: fadeIn 1s ease-out 0.6s both;
+    }
+    
+    .hero-cta:hover {
+        background-color: #e91e63;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .hero-heading {
+            font-size: 2.5rem;
+        }
+        
+        .hero-subheading {
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .hero-heading {
+            font-size: 2rem;
+        }
+        
+        .hero-subheading {
+            font-size: 1rem;
+        }
+        
+        .hero-cta {
+            padding: 12px 25px;
+            font-size: 0.9rem;
+        }
+    }
+</style>
+
+            <!-- Services Preview -->
+            <section class="section services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Yoga Studio Services</h2>
+            <p class="section-subtitle">Discover holistic wellness through our diverse yoga offerings</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <h3 class="service-title">Hatha Yoga</h3>
+                <p class="service-description">
+                    Our foundational Hatha classes focus on physical postures and breathing techniques. 
+                    Perfect for beginners to build strength and flexibility while calming the mind.
+                </p>
+                <a href="services.html#hatha-yoga" class="btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <h3 class="service-title">Vinyasa Flow</h3>
+                <p class="service-description">
+                    Dynamic movement synchronized with breath in our Vinyasa classes. 
+                    Experience a moving meditation that builds heat, endurance and mental focus.
+                </p>
+                <a href="services.html#vinyasa-flow" class="btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h3 class="service-title">Yin Yoga</h3>
+                <p class="service-description">
+                    Deep stretch and relaxation in our Yin classes. 
+                    Long-held poses target connective tissues and promote joint mobility and stress relief.
+                </p>
+                <a href="services.html#yin-yoga" class="btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <h3 class="service-title">Prenatal Yoga</h3>
+                <p class="service-description">
+                    Specialized classes supporting expecting mothers. 
+                    Gentle poses and breathing techniques to ease pregnancy discomfort and prepare for childbirth.
+                </p>
+                <a href="services.html#prenatal-yoga" class="btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <h3 class="service-title">Advanced Ashtanga</h3>
+                <p class="service-description">
+                    Challenging sequences for experienced practitioners. 
+                    Build strength, flexibility and discipline through this traditional yoga method.
+                </p>
+                <a href="services.html#ashtanga-yoga" class="btn-learn-more">Learn More</a>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3 class="service-title">Meditation Sessions</h3>
+                <p class="service-description">
+                    Guided meditation to cultivate mindfulness and inner peace. 
+                    Learn techniques to reduce stress and enhance mental clarity in daily life.
+                </p>
+                <a href="services.html#meditation" class="btn-learn-more">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Testimonials -->
+            <section class="section testimonials">
+    <h2 class="section-title">What Our Students Say</h2>
+    <p class="section-subtitle">Hear from our yoga community</p>
+    
+    <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"This studio changed my life! The instructors are knowledgeable and create such a welcoming environment. I've never felt stronger or more at peace."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-author">
+                <img src="assets/images/Yoga-studio1.jpg" alt="Sarah practicing yoga">
+                <div class="author-info">
+                    <h4>Sarah M.</h4>
+                    <p>Student for 2 years</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"As a beginner, I was nervous to start yoga, but the teachers here made me feel completely comfortable. Now I can't imagine my week without these classes!"</p>
+                <div class="stars">★★★★☆</div>
+            </div>
+            <div class="testimonial-author">
+                <img src="assets/images/Yoga-studio2.jpg" alt="David in yoga pose">
+                <div class="author-info">
+                    <h4>David K.</h4>
+                    <p>Student for 6 months</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"The perfect balance of challenge and relaxation. I leave every class feeling rejuvenated. The studio space itself is so calming and beautiful too."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-author">
+                <img src="assets/images/Yoga-studio3.jpg" alt="Priya meditating">
+                <div class="author-info">
+                    <h4>Priya S.</h4>
+                    <p>Student for 1 year</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Why Choose Us -->
+            <section class="section why-choose-us">
+    <div class="container">
+        <h2 class="section-title">Why Choose Zeke Yoga Studio</h2>
+        <p class="section-subtitle">Experience the perfect balance of mind, body, and soul with our expert-led yoga classes in a serene and welcoming environment.</p>
+        
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-user-shield feature-icon"></i>
+                <h3 class="feature-title">Certified Instructors</h3>
+                <p class="feature-desc">All our instructors are Yoga Alliance certified with years of teaching experience to guide you safely.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-leaf feature-icon"></i>
+                <h3 class="feature-title">Holistic Approach</h3>
+                <p class="feature-desc">We blend traditional yoga with modern wellness techniques for complete mind-body harmony.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-heart feature-icon"></i>
+                <h3 class="feature-title">Personalized Attention</h3>
+                <p class="feature-desc">Small class sizes ensure individual guidance tailored to your unique needs and goals.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i class="fas fa-spa feature-icon"></i>
+                <h3 class="feature-title">Serene Environment</h3>
+                <p class="feature-desc">Our peaceful studio space is designed to enhance your practice and relaxation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Zeke Yoga studio</h3>
+                        <p>Find your inner peace</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com/yogastudio"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/yogastudio"><i class="fab fa-instagram"></i></a>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Info</h3>
+                        <ul class="footer-links">
+                            <li>Email: info@yogastudio.com</li>
+                            <li>Phone: +1 555-123-4567</li>
+                            <li>Address: 123 Yoga St, Bliss City, USA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script src="js/base.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/form-handler.js"></script>
+    </body>
+    </html>
+    
